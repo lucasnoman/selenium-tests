@@ -21,6 +21,10 @@ class BaseElement(object):
     self.web_element = element
     return None
 
+  def input_text(self, txt):
+    self.web_element.send_keys(txt)
+    return None
+
   def click(self):
     element = WebDriverWait(self.driver,
                             5).until(EC.element_to_be_clickable(self.locator))
