@@ -1,4 +1,5 @@
 # pylint: disable=missing-docstring
+# pylint: disable=import-error
 import sys
 from selenium import webdriver
 
