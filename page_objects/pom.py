@@ -1,12 +1,7 @@
-# pylint: disable=missing-docstring
-# pylint: disable=import-error
-import sys
 from selenium import webdriver
 
 from pages.training_ground_page import TrainingGroundPage
 from pages.trial_page import TrialPage
-
-sys.path.append('..')
 
 # Testing setup
 browser = webdriver.Edge()

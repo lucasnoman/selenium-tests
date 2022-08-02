@@ -1,9 +1,8 @@
-# pylint: disable=missing-docstring
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class BaseElement(object):
+class BaseElement():
 
   def __init__(self, driver, locator) -> None:
     self.driver = driver

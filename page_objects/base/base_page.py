@@ -1,5 +1,4 @@
-# pylint: disable=missing-docstring
-class BasePage(object):
+class BasePage():
   url = None
 
   def __init__(self, driver) -> None:

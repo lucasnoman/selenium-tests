@@ -1,14 +1,8 @@
-# pylint: disable=missing-docstring
-# pylint: disable=import-error
-import sys
-
 from selenium.webdriver.common.by import By
 
 from base.base_element import BaseElement
 from base.base_page import BasePage
 from base.locator import Locator
-
-sys.path.append('..')
 
 
 class TrialPage(BasePage):
